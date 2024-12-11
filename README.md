@@ -110,29 +110,7 @@ ContaPoupanca --> Conta
 
 <br />
 
-## 6. Estrutura do Projeto
-
-```
-├── src
-│   ├── controller
-│   │   └── ContaController.ts
-|	├── model
-│   │   └── Conta.ts 
-│   │   └── ContaCorrente.ts    
-│   │   └── ContaPoupanca.ts	  
-│   ├── repository
-│   │   └── ContaRepository.ts  
-│   ├── util
-│   │   └── Colors.ts    		   
-└── Menu.ts.ts            		  
-├── package.json
-├── tsconfig.json
-└── README.md
-```
-
-<br />
-
-## 7. Funcionalidades
+## 6. Funcionalidades
 
 ### 1. Criação de Conta
 Permite criar uma nova conta bancária especificando nome do titular, número da agência, número da conta e saldo inicial, al´me das propriedades específicas de cada tipo de conta.
@@ -162,7 +140,7 @@ Transfere um valor de uma conta para outra, respeitando os saldos e limites.
 
 <br />
 
-## 8. Tela Inicial do Sistema
+## 7. Tela Inicial do Sistema
 
 
 
