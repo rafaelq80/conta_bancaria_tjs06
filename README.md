@@ -115,16 +115,16 @@ ContaPoupanca --> Conta
 ```
 ├── src
 │   ├── controller
-│   │   └── ContaController.ts   # Classe que implementa a interface ContaRepository
+│   │   └── ContaController.ts
 |	├── model
-│   │   └── Conta.ts    		# Classe que representa uma conta bancária genérica
-│   │   └── ContaCorrente.ts     # Classe que representa uma conta corrente
-│   │   └── ContaPoupanca.ts	 # Classe que representa uma conta poupança
+│   │   └── Conta.ts 
+│   │   └── ContaCorrente.ts    
+│   │   └── ContaPoupanca.ts	  
 │   ├── repository
-│   │   └── ContaRepository.ts  # Interface que define os Métodos do CRUD
+│   │   └── ContaRepository.ts  
 │   ├── util
-│   │   └── Colors.ts    		# Modelo de Cores
-└── Menu.ts.ts            		# Ponto de entrada do programa
+│   │   └── Colors.ts    		   
+└── Menu.ts.ts            		  
 ├── package.json
 ├── tsconfig.json
 └── README.md
